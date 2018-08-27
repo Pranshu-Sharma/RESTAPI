@@ -1,0 +1,22 @@
+{
+  "name": "Ecommerce-application",
+  "version": "1.0.0",
+  "description": "This is a REST API for E-Commerce app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "apidoc -i routes/ -o apidoc/"
+  },
+  "author": "Pranshu Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "mongoose": "^4.13.5",
+    "pino": "^5.4.0",
+    "shortid": "^2.2.8"
+  }
+}
